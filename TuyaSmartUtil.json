@@ -1,4 +1,5 @@
 {
+	"2.8.44": "https://raw.githubusercontent.com/mokriya-org/tuya_sdk_ios/master/2.8.44/TuyaSmartUtil.framework.zip",
 	"3.14.1": "https://raw.githubusercontent.com/mokriya-org/tuya_sdk_ios/master/3.14.1/TuyaSmartUtil.framework.zip",
 	"3.17.0": "https://raw.githubusercontent.com/mokriya-org/tuya_sdk_ios/master/3.17.0/TuyaSmartUtil.framework.zip"
 }
