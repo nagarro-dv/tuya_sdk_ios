@@ -7,19 +7,21 @@ let package = Package(
   name: "TuyaSmartHome SDK",
   platforms: [.iOS(.v13)],
   products: [
+    
     .library(
-      name: "TuyaSmartActivatorKit",
-      targets: ["TuyaSmartActivatorKit"]
+      name: "Test",
+      targets: ["Test"]
     )
   ],
   dependencies: [
     
   ],
   targets: [
+    
     .binaryTarget(
-      name: "TuyaSmartActivatorKit",
-      url: "https://raw.githubusercontent.com/mokriya-org/tuya_sdk_ios/spm/Binaries/3.17.0/TuyaSmartActivatorKit.zip",
-      checksum: "b7b169fae2d5ab3dde5f0d898cb1a8171a4f8de31a9852798d1c43d4bda8582b"
+      name: "Test",
+      url: "https://raw.githubusercontent.com/mokriya-org/tuya_sdk_ios/spm/Binaries/3.17.0/Test.zip",
+      checksum: "54faf643d30067011529ac775f8e9c2efd03de08f95338f8db67a799aa33d820"
     )
   ]
 )
