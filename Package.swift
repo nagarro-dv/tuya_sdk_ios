@@ -21,6 +21,10 @@ let package = Package(
       targets: ["TuyaSmartDeviceKit"]
     ),
     .library(
+      name: "TuyaSmartSceneKit",
+      targets: ["TuyaSmartSceneKit"]
+    ),
+    .library(
       name: "TuyaSmartMQTTChannelKit",
       targets: ["TuyaSmartMQTTChannelKit"]
     ),
@@ -53,6 +57,10 @@ let package = Package(
     .binaryTarget(
       name: "TuyaSmartDeviceKit",
       path: "Binaries/3.17.0/TuyaSmartDeviceKit.xcframework"
+    ),
+    .binaryTarget(
+      name: "TuyaSmartSceneKit",
+      path: "Binaries/3.17.0/TuyaSmartSceneKit.xcframework"
     ),
     .binaryTarget(
       name: "TuyaSmartMQTTChannelKit",
