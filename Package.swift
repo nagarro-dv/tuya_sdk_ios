@@ -19,7 +19,7 @@ let package = Package(
     .binaryTarget(
       name: "TuyaSmartActivatorKit",
       url: "https://raw.githubusercontent.com/mokriya-org/tuya_sdk_ios/spm/Binaries/3.17.0/TuyaSmartActivatorKit.zip",
-      checksum: "5251bab91a15365c1c94da7fbf0b0989b9bd0cc6abdaa505fd886877b09d5188"
+      checksum: "b7b169fae2d5ab3dde5f0d898cb1a8171a4f8de31a9852798d1c43d4bda8582b"
     )
   ]
 )
