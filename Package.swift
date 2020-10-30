@@ -18,6 +18,10 @@ let package = Package(
     .library(
       name: "TuyaSmartDeviceKit",
       targets: ["TuyaSmartDeviceKit"]
+    ),
+    .library(
+      name: "TuyaSmartUtil",
+      targets: ["TuyaSmartUtil"]
     )
   ],
   dependencies: [
@@ -35,6 +39,10 @@ let package = Package(
     .binaryTarget(
       name: "TuyaSmartDeviceKit",
       path: "Binaries/3.17.0/TuyaSmartDeviceKit.xcframework"
+    ),
+    .binaryTarget(
+      name: "TuyaSmartUtil",
+      path: "Binaries/3.17.0/TuyaSmartUtil.xcframework"
     )
   ]
 )
