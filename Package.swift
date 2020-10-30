@@ -7,6 +7,7 @@ let package = Package(
   name: "TuyaSmartHome SDK",
   platforms: [.iOS(.v13)],
   products: [
+
     .library(
       name: "TuyaSmartActivatorKit",
       targets: ["TuyaSmartActivatorKit"]
@@ -30,11 +31,15 @@ let package = Package(
     .library(
       name: "TuyaSmartUtil",
       targets: ["TuyaSmartUtil"]
+    ),
+    .library(
+      name: "MQTTClient",
+      targets: ["MQTTClient"]
+    ),
+    .library(
+      name: "YYModel",
+      targets: ["YYModel"]
     )
-  ],
-  dependencies: [
-    .package(path: "Binaries/Dependencies/MQTT-Client-Framework"),
-    .package(path: "Binaries/Dependencies/YYModel")
   ],
   targets: [
     .binaryTarget(
@@ -60,6 +65,14 @@ let package = Package(
     .binaryTarget(
       name: "TuyaSmartUtil",
       path: "Binaries/3.17.0/TuyaSmartUtil.xcframework"
+    ),
+    .binaryTarget(
+      name: "MQTTClient",
+      path: "Binaries/Dependencies/MQTT-Client-Framework/0.15.2/MQTTClient.xcframework"
+    ),
+    .binaryTarget(
+      name: "YYModel",
+      path: "Binaries/Dependencies/YYModel/1.0.4/YYModel.xcframework"
     )
   ]
 )
