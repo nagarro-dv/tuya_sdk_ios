@@ -22,8 +22,7 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "TuyaSmartActivatorKit",
-      path: "Binaries/3.17.0/TuyaSmartActivatorKit.xcframework",
-      dependencies: ["TuyaSmartDeviceKit"]
+      path: "Binaries/3.17.0/TuyaSmartActivatorKit.xcframework"
     ),
     .binaryTarget(
       name: "TuyaSmartDeviceKit",
