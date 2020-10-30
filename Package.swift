@@ -33,7 +33,8 @@ let package = Package(
     )
   ],
   dependencies: [
-    
+    .package(path: "Binaries/Dependencies/MQTT-Client-Framework"),
+    .package(path: "Binaries/Dependencies/YYModel")
   ],
   targets: [
     .binaryTarget(
