@@ -48,31 +48,31 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "TuyaSmartActivatorKit",
-      path: "Binaries/3.17.0/TuyaSmartActivatorKit.xcframework"
+      path: "Binaries/3.20.0/TuyaSmartActivatorKit.xcframework"
     ),
     .binaryTarget(
       name: "TuyaSmartBaseKit",
-      path: "Binaries/3.17.0/TuyaSmartBaseKit.xcframework"
+      path: "Binaries/3.20.0/TuyaSmartBaseKit.xcframework"
     ),
     .binaryTarget(
       name: "TuyaSmartDeviceKit",
-      path: "Binaries/3.17.0/TuyaSmartDeviceKit.xcframework"
+      path: "Binaries/3.20.0/TuyaSmartDeviceKit.xcframework"
     ),
     .binaryTarget(
       name: "TuyaSmartSceneKit",
-      path: "Binaries/3.17.0/TuyaSmartSceneKit.xcframework"
+      path: "Binaries/3.20.0/TuyaSmartSceneKit.xcframework"
     ),
     .binaryTarget(
       name: "TuyaSmartMQTTChannelKit",
-      path: "Binaries/3.17.0/TuyaSmartMQTTChannelKit.xcframework"
+      path: "Binaries/3.20.0/TuyaSmartMQTTChannelKit.xcframework"
     ),
     .binaryTarget(
       name: "TuyaSmartSocketChannelKit",
-      path: "Binaries/3.17.0/TuyaSmartSocketChannelKit.xcframework"
+      path: "Binaries/3.20.0/TuyaSmartSocketChannelKit.xcframework"
     ),
     .binaryTarget(
       name: "TuyaSmartUtil",
-      path: "Binaries/3.17.0/TuyaSmartUtil.xcframework"
+      path: "Binaries/3.20.0/TuyaSmartUtil.xcframework"
     ),
     .binaryTarget(
       name: "MQTTClient",
