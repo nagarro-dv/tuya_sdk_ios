@@ -10,37 +10,30 @@ let package = Package(
 
     .library(
       name: "TuyaSmartActivatorKit",
-      type: .static,
       targets: ["TuyaSmartActivatorKit"]
     ),
     .library(
       name: "TuyaSmartBaseKit",
-      type: .static,
       targets: ["TuyaSmartBaseKit"]
     ),
     .library(
       name: "TuyaSmartDeviceKit",
-      type: .static,
       targets: ["TuyaSmartDeviceKit"]
     ),
     .library(
       name: "TuyaSmartSceneKit",
-      type: .static,
       targets: ["TuyaSmartSceneKit"]
     ),
     .library(
       name: "TuyaSmartMQTTChannelKit",
-      type: .static,
       targets: ["TuyaSmartMQTTChannelKit"]
     ),
     .library(
       name: "TuyaSmartSocketChannelKit",
-      type: .static,
       targets: ["TuyaSmartSocketChannelKit"]
     ),
     .library(
       name: "TuyaSmartUtil",
-      type: .static,
       targets: ["TuyaSmartUtil"]
     ),
     .library(
