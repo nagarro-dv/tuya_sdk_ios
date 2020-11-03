@@ -14,7 +14,6 @@ let package = Package(
     ),
     .library(
       name: "TuyaSmartBaseKit",
-      type: .static,
       targets: ["TuyaSmartBaseKit"]
     ),
     .library(
