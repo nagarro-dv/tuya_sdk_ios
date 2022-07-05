@@ -1,0 +1,6 @@
+framework module TuyaSmartMbedTLS {
+  umbrella header "TuyaSmartMbedTLS.h"
+
+  export *
+  module * { export * }
+}
